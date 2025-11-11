@@ -44,8 +44,7 @@ The dataset used is the "Telugu EENADU News Articles" from Kaggle, consisting of
     - Max: 14003 characters
 
 **Visualizations of Data Distribution**: 
-
-![image.png](attachment:9cc329ee-f54b-4ee4-a776-fe0462711521:image.png)
+![VisualizationsOfDataDistribution.png](VisualizationsOfDataDistribution.png)
 
 ---
 
@@ -74,7 +73,7 @@ The model was fine-tuned using the Hugging Face `Trainer` API with the following
 - **Max Sequence Length**: 512 tokens
 - **GPU Used**: Tesla T4
 
-![image.png](attachment:8c81b350-d023-4da1-b212-ef3ba172f597:image.png)
+![TrainingStage.png](TrainingStage.png)
 
 ---
 
@@ -108,7 +107,7 @@ weighted avg       0.96      0.96      0.96      4106
 
 **Confusion Matrix**: 
 
-![Confusion Matrix.png](ConfusionMatrix.png)
+![ConfusionMatrix.png](ConfusionMatrix.png)
 
 ---
 
